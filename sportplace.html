@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <title>場館介紹</title>
+  <meta charset="utf-8">
+  <style>
+    #div1 {
+      width: 1200px;
+      height: 1200px;
+      position: relative;
+      background-color: #d6f9dd;
+      top: 20px;
+      left: 20%;
+    }
+
+    #div2 {
+      margin-right: -30px;
+      margin-bottom: -30px;
+    }
+
+    .box {
+      position: relative;
+      width: 525px;
+      height: 375px;
+      margin: 10px 30px 30px 10px;
+      background-size: 100% 100%;
+      float: left;
+    }
+
+    .box img {
+      width: 525px;
+      height: 375px;
+    }
+
+    .box:hover .details {
+      display: block;
+    }
+
+    .text {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      line-height: 45px;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .blank {
+      float: left;
+      width: 150px;
+      background-color: transparent;
+      height: 50px;
+    }
+
+    .h3 {
+      float: left;
+      width: 220px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 35px;
+    }
+
+    .details {
+      color: #FFFFFF;
+      display: none;
+      text-align: center;
+      font-size: 20px;
+    }
+
+      {
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #99F7AB;
+      font-size: 15px;
+      color: black;
+    }
+
+    article {
+      background-color: #d6f9dd;
+      padding: 20px;
+      font-size: 20px;
+      color: black;
+      padding-bottom: 80px;
+      padding-top: 50px;
+    }
+
+
+    #footer {
+      width: 100%;
+      background-color: Black;
+      height: 100x;
+      margin: 10px;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      font-family: 微軟正黑體;
+      margin-bottom: 0px;
+      margin-left: 0px;
+
+    }
+
+
+    .img:hover {
+      width: 100%;
+      height: 100%;
+    }
+
+    .img {
+      transition-property: height, width;
+      transition-duration: 25ms;
+      height: 70%;
+      width: 70%;
+    }
+
+    .wei-image2 {
+      transition: transform 1.5s ease;
+
+    }
+
+    .wei-grid:hover .wei-image2,
+    .wei-grid:focus .wei-image2 {
+      cursor: pointer;
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+
+    <table>
+      <tr>
+        <td style="padding-left: 60px;"><a href="homepage.html"><img src="pic/cycu.png" height="100px"
+              width="100px"></a></td>
+        <td style="padding-left: 40px;"><img src="pic/title.png"></td>
+        <td style="padding-left: 400px; padding-top: 75px;"><a href="sportplace.html"><img class="img"
+              src="pic/place.png"></a></td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="movie.html"><img class="img" src="pic/movie.png"></a>
+        </td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="aboutus.html"><img class="img" src="pic/us.png"></a>
+        </td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="contact.html"><img class="img"
+              src="pic/chat.png"></a></td>
+      </tr>
+    </table>
+
+  </header>
+  <article>
+    <div id="div1">
+      <div id="div2">
+        <div class="box">
+          <img src="pic/lqc.jpg" />
+          <div class="text">
+            <div class="blank"></div>
+            <div class="h3">
+              <h3>籃球場</h3>
+              <p class="details">
+                中原大學同時擁有室內、室外兩類籃球場，同時滿足學生比賽、訓練以及活動的需求
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pic/cc.jpg" />
+          <div class="text">
+            <div class="blank">
+            </div>
+            <div class="h3">
+              <h3>操場</h3>
+              <p class="details">
+                400×8的國際體育賽事標準跑道，周圍的看台可以容納上千人同時圍觀學校的體育活動
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pic/yyg.jpg" />
+          <div class="text">
+            <div class="blank">
+            </div>
+            <div class="h3">
+              <h3>游泳館</h3>
+              <p class="details">
+                學校花費七千萬建設滿足賽事標準的游泳館，除了八條五十米的賽道外，也可同時容納六百位觀眾
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pic/jsf.jpg" />
+          <div class="text">
+            <div class="blank">
+            </div>
+            <div class="h3">
+              <h3>健身房</h3>
+              <p class="details">
+                這兩年改建原先的桌球室為新的健身房，位於體育館B1層，設備齊全，滿足同學日常的鍛煉需求
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pic/zqs.JPG" />
+          <div class="text">
+            <div class="blank">
+            </div>
+            <div class="h3">
+              <h3>桌球室</h3>
+              <p class="details">
+                桌球室位於體育館左側的B1層，雖然空間不大，但球桌數量已足夠滿足學生或社團的日常使用
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="pic/wqc.jpg" />
+          <div class="text">
+            <div class="blank">
+            </div>
+            <div class="h3">
+              <h3>網球場</h3>
+              <p class="details">
+                露天網球場建立在室外籃球場旁邊，經常會有各系學生來進行課後的放鬆鍛煉和娛樂
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </article>
+
+  <div id="footer" class="wei-grid">聯絡我們<a href="mailto:zxc8899555@gmail.com" title="寄信給我們！">
+      <img src="pic/gmail.png" class="wei-image2" /></a>
+    或<a href="tel:+886-926529179" title="立即撥打電話！">
+      <img src="pic/phone.png" class="wei-image2"></a>
+    <a href="https://www.facebook.com/asd8899555/" target="_blank" title="臉書私訊"><img src=" pic/FB.jpg"
+        class="wei-image2">
+    </a>
+    <a>Copyright © 2020 Cirprice. All rights reserved</a></div>
+
+</body>
+
+</html>
