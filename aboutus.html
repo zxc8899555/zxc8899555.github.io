@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <title>關於我們</title>
+  <meta charset="utf-8">
+  <style>
+    {
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #99F7AB;
+      font-size: 15px;
+      color: black;
+    }
+
+    article {
+      background-color: #d6f9dd;
+      padding: 20px;
+      color: black;
+    }
+
+    #footer {
+      width: 100%;
+      background-color: Black;
+      height: 100x;
+      margin: 10px;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      font-family: 微軟正黑體;
+      margin-bottom: 0px;
+      margin-left: 0px;
+
+    }
+
+    .img:hover {
+      width: 100%;
+      height: 100%;
+    }
+
+    .img {
+      transition-property: height, width;
+      transition-duration: 25ms;
+      height: 70%;
+      width: 70%;
+    }
+
+    .slide {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+
+      width: 400px;
+      height: 250px;
+      overflow: hidden;
+
+      background-color: #000;
+    }
+
+    .slide>div {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      position: absolute;
+      animation: slide 12s infinite;
+      opacity: 0;
+    }
+
+    .slide>div:nth-child(2) {
+      animation-delay: 4s;
+    }
+
+    .slide>div:nth-child(3) {
+      animation-delay: 8s;
+    }
+
+
+    @keyframes slide {
+      33% {
+        opacity: 0.7;
+      }
+
+      66% {
+        transform: scale(1.1);
+      }
+
+
+    }
+
+    .wei-image4 {
+      transition: opacity 1s ease;
+
+    }
+
+    .wei-grid:hover .wei-image4,
+    .wei-grid:focus .wei-image4 {
+      opacity: 0.4;
+    }
+
+    .wei-image2 {
+      transition: transform 1.5s ease;
+
+    }
+
+    .wei-grid:hover .wei-image2,
+    .wei-grid:focus .wei-image2 {
+      cursor: pointer;
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+
+    <table>
+      <tr>
+        <td style="padding-left: 60px;"><a href="homepage.html"><img src="pic/cycu.png" height="100px"
+              width="100px"></a></td>
+        <td style="padding-left: 40px;"><img src="pic/title.png"></td>
+        <td style="padding-left: 400px; padding-top: 75px;"><a href="sportplace.html"><img class="img"
+              src="pic/place.png"></a></td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="movie.html"><img class="img" src="pic/movie.png"></a>
+        </td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="aboutus.html"><img class="img" src="pic/us.png"></a>
+        </td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="contact.html"><img class="img"
+              src="pic/chat.png"></a></td>
+      </tr>
+    </table>
+
+  </header>
+
+  <article>
+    <table style="padding-top: 35px;">
+      <tr>
+        <td style="padding-left: 300px;" class="wei-grid">
+          <img src="pic/zqy.jpg" class="wei-image4" width="325px" height="300px">
+        </td>
+        <td style="font-size: 20px;line-height: 45px; padding-left: 50px;">
+          <p>朱其彦</p>
+          <p>白羊座</p>
+          <p>愛好：聽歌 睡覺</p>
+          <p>特長：裝死</p>
+        </td>
+        <td style="font-size: 20px;line-height: 33px; width: 500px;padding-left: 30px;">
+          <img src="pic/view.png" height="55px" width="180px">
+          <p style="padding-left: 50px;">
+            這次的期中專案我學到了很多東西，我主要負責的是網頁的製作，這對我來說也是初體驗。開始的時候會很迷茫不知道從什麼地方做起，只有安排好計劃慢慢完成每一個區域的內容、配色、排版，看到一個勉強算是網頁的成果緩緩出現的時候會有蠻大的成就感。確實只有在不斷嘗試和查找資料的過程中，才能提升自己，希望以後也可以記住這一次經歷，提醒自己要時刻保持學習和嘗試。
+          </p>
+        </td>
+      </tr>
+
+    </table>
+    <div align="center"><img src="pic/line.png" width="80%" height="25px"></div>
+    <table>
+      <tr>
+        <td style="font-size: 20px;line-height: 45px; padding-left: 300px;">
+          <p>周迎希</p>
+          <p>天蝎座</p>
+          <p>愛好：騎車 聽歌 打電動</p>
+          <p>特長：睡覺</p>
+        </td>
+
+        <td style="font-size: 20px;line-height: 33px; width: 500px;padding-left: 50px;">
+          <img src="pic/view.png" height="55px" width="180px">
+          <p style="padding-left: 50px;">
+            很高興能夠跟兩位學長一組做報告，從中學會了很多事情的解決方法，雖然大部份事情都是學長們完成了，但是他們也會尊重我的意見，接下來會繼續努力。
+          </p>
+        </td>
+
+        <td style="padding-left: 30px;" class="wei-grid">
+          <img src="pic/zyx.jpg" class="wei-image4" width="325px" height="300px">
+        </td>
+      </tr>
+    </table>
+    <div align="center"><img src="pic/line.png" width="80%" height="25px"></div>
+    <table>
+      <tr>
+        <td style="padding-left: 300px;" class="wei-grid">
+          <img src="pic/cwc.jpg" class="wei-image4" width="325px" height="300px">
+        </td>
+        <td style="font-size: 20px;line-height: 45px; padding-left: 50px;">
+          <p>陳文成</p>
+          <p>星座：處女座</p>
+          <p>愛好：美食 電動 運動</p>
+          <p>特長：講幹話</p>
+        </td>
+        <td style="font-size: 20px;line-height: 33px; width: 500px;padding-left: 30px;">
+          <img src="pic/view.png" height="55px" width="180px">
+          <p style="padding-left: 50px;">
+            好快就到了期中報告，班上都是不熟悉的人，一開始一直找不到組員，原本以為要單打獨鬥了，好險後來組員都冒出來了，但是時間也變得有點趕，好險大家還是能湊出時間一起出來拍影片，可惜場館在裝修，幾個鏡頭沒辦法去拍。
+            我主要負責的是劇本和文件，高中和大學都有做過劇本，算是我比較熟悉的事務，其中專案能順利完成，其他組員都有我值得學習的地方。
+
+          </p>
+        </td>
+      </tr>
+
+    </table>
+  </article>
+  <div class="slide">
+    <div>
+      <img src="pic/1st.jpg" width="425px" height="275px" alt="pure css3 slider" />
+      <span class="info">Image Description 1</span>
+    </div>
+    <div>
+      <img src="pic/2nd.jpg" width="425px" height="275px" alt="pure css3 slider" />
+      <span class="info">Image Description 2</span>
+    </div>
+    <div>
+      <img src="pic/3rd.jpg" width="425px" height="275px" alt="pure css3 slider" />
+      <span class="info">Image Description 3</span>
+    </div>
+  </div>
+  <div id="footer" class="wei-grid">聯絡我們<a href="mailto:zxc8899555@gmail.com" title="寄信給我們！">
+      <img src="pic/gmail.png" class="wei-image2" /></a>
+    或<a href="tel:+886-926529179" title="立即撥打電話！">
+      <img src="pic/phone.png" class="wei-image2"></a>
+    <a href="https://www.facebook.com/asd8899555/" target="_blank" title="臉書私訊"><img src=" pic/FB.jpg"
+        class="wei-image2">
+    </a>
+    <a>Copyright © 2020 Cirprice. All rights reserved</a></div>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <title>影片欣賞</title>
+  <meta charset="utf-8">
+  <style>
+    {
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #99F7AB;
+      font-size: 15px;
+      color: black;
+    }
+
+    article {
+      background-color: #d6f9dd;
+      padding: 20px;
+      font-size: 20px;
+      color: black;
+    }
+
+    #footer {
+      width: 100%;
+      background-color: Black;
+      height: 100x;
+      margin: 10px;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      font-family: 微軟正黑體;
+      margin-bottom: 0px;
+      margin-left: 0px;
+
+    }
+
+    .img:hover {
+      width: 100%;
+      height: 100%;
+    }
+
+    .img {
+      transition-property: height, width;
+      transition-duration: 25ms;
+      height: 70%;
+      width: 70%;
+    }
+
+    .img1:hover {
+      width: 500px;
+      height: 310px;
+    }
+
+    .img1 {
+      transition-property: height, width;
+      transition-duration: 25ms;
+
+    }
+
+    .wei-image2 {
+      transition: transform 1.5s ease;
+
+    }
+
+    .wei-grid:hover .wei-image2,
+    .wei-grid:focus .wei-image2 {
+      cursor: pointer;
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+
+    <table>
+      <tr>
+        <td style="padding-left: 60px;"><a href="homepage.html"><img src="pic/cycu.png" height="100px"
+              width="100px"></a></td>
+        <td style="padding-left: 40px;"><img src="pic/title.png"></td>
+        <td style="padding-left: 400px; padding-top: 75px;"><a href="sportplace.html"><img class="img"
+              src="pic/place.png"></a></td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="movie.html"><img class="img" src="pic/movie.png"></a>
+        </td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="aboutus.html"><img class="img" src="pic/us.png"></a>
+        </td>
+        <td style="padding-left: 15px;padding-top: 75px;"><a href="contact.html"><img class="img"
+              src="pic/chat.png"></a></td>
+      </tr>
+    </table>
+
+  </header>
+  <article align="center">
+    <div><img src="pic/i.png" height="150px"></div>
+    <video width="800px" height="550px" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+
+    </video>
+    <table>
+      <tr>
+        <td style="padding-left: 150px;padding-top: 45px;"><img src="pic/j.png"></td>
+        <td style="padding-left: 30px;padding-top: 45px;"><img src="pic/1st.jpg" class="img1" width="425px"
+            height="275px"></td>
+        <td style="padding-left: 30px;padding-top: 45px;"><img src="pic/2nd.jpg" class="img1" width="425px"
+            height="275px"></td>
+        <td style="padding-left: 30px;padding-top: 45px;"><img src="pic/3rd.jpg" class="img1" width="425px"
+            height="275px"></td>
+      </tr>
+    </table>
+  </article>
+
+  <div id="footer" class="wei-grid">聯絡我們<a href="mailto:zxc8899555@gmail.com" title="寄信給我們！">
+      <img src="pic/gmail.png" class="wei-image2" /></a>
+    或<a href="tel:+886-926529179" title="立即撥打電話！">
+      <img src="pic/phone.png" class="wei-image2"></a>
+    <a href="https://www.facebook.com/asd8899555/" target="_blank" title="臉書私訊"><img src=" pic/FB.jpg"
+        class="wei-image2">
+    </a>
+    <a>Copyright © 2020 Cirprice. All rights reserved</a></div>
+</body>
+
+</html>
