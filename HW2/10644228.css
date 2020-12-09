@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+<style>html {
+  height: 100%;
+}
+
+body {
+  background-image: url("image/bridge.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.table1 {
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  text-align: center;
+  background-image: url("image/space.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.footer1 {
+  position: absolute;
+  top: 3000px;
+  bottom: 0px;
+  left: 0px;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  color: white;
+  width: 100%;
+
+}
+
+.menu {
+  font: bold 36px "Helvetica Neue";
+  text-shadow: 0 2px 0 #cccccc, 0 2px 0 #c9c9c9, 0 1px 0 #bbbbbb;
+  font-family: 微軟正黑體;
+}
+
+
+
+.img_smile {
+  width: 946px;
+  height: 700px;
+  position: absolute;
+  top: 430px;
+
+  left: 70%;
+
+
+  margin: -350px 0 0 -473px;
+  transition: transform 1s ease;
+}
+
+.div1 {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+.div2 {
+  position: relative;
+  top: 680px;
+  left: 40px;
+  z-index: 1;
+  float: left;
+
+}
+
+.div2_1 {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%
+}
+
+.div3 {
+  position: relative;
+  height: 475px;
+  width: 475px;
+  padding-top: 5px;
+  padding-left: 15px;
+  background-image: url("image/bg1.png");
+  background-size: cover;
+  border-radius: 5%;
+  z-index: 2;
+  float: left;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: 9%;
+}
+
+.div4 {
+  position: relative;
+
+  height: 475px;
+  width: 475px;
+  padding-top: 5px;
+  padding-left: 15px;
+  background-image: url("image/bg1.png");
+  background-size: cover;
+  border-radius: 5%;
+  z-index: 2;
+  float: left;
+  top: 200px;
+  left: 50%;
+}
+
+.div5 {
+  position: relative;
+  height: 475px;
+  width: 475px;
+
+  padding-top: 5px;
+  padding-left: 15px;
+  background-image: url("image/bg1.png");
+  background-size: cover;
+  z-index: 2;
+  float: left;
+  border-radius: 4%;
+  top: 300px;
+  left: 9%;
+}
+
+.div6 {
+  position: relative;
+
+  height: 475px;
+  width: 475px;
+  padding-top: 5px;
+  padding-left: 15px;
+  background-image: url("image/bg1.png");
+  background-size: cover;
+  border-radius: 5%;
+  z-index: 2;
+  float: left;
+  top: 300px;
+  left: 23%;
+}
+
+.div7 {
+  position: relative;
+  height: 150px;
+  width: 300px;
+  top: 20px;
+  padding-top: 5px;
+  padding-left: 15px;
+  background-image: url("image/bg1.png");
+  background-size: cover;
+  border-radius: 5%;
+  z-index: 2;
+  float: left;
+  top: 400px;
+  left: 40%;
+}
+
+
+
+.border1 {
+  border: 1px solid #a5b6c8;
+  background-image: url("image/table.png");
+  background-size: cover;
+  border-style: inset;
+}
+
+.title {
+  font: bold 36px "Helvetica Neue";
+  color: #006000;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.title2 {
+  font-size: 75px;
+  color: #DDDDDD;
+  font-family: 'Akronim', cursive;
+}
+
+
+
+p {
+  font-size: 18px;
+  font-family: 'Just Another Hand', cursive;
+}
+
+pre {
+  font-size: 24px;
+  font-family: 'Just Another Hand',
+    cursive;
+}
+
+.smalltitle {
+  font-size: 22px;
+}
+
+.imgtax {
+  height: 350px;
+  padding-top: 15px;
+  padding-left: 4px;
+}
+
+.img2 {
+  height: 247px;
+  padding-top: 15px;
+  padding-left: 4px;
+}
+
+.img3 {
+  width: 430px;
+  padding-top: 15px;
+  padding-left: 4px;
+}
+
+.img4 {
+  width: 700px;
+  padding-top: 15px;
+}
+
+
+
+
+.wei-image2 {
+  transition: transform 1s ease;
+
+}
+
+.wei-grid2:hover .wei-image2,
+.wei-grid2:focus .wei-image2 {
+  cursor: pointer;
+  transform: rotate(720deg);
+  -ms-transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
+}
+
+
+.wei-grid3:hover .img_smile,
+.wei-grid3:focus .img_smile {
+  cursor: pointer;
+  transform: translateY(+50%);
+  -webkit-transform: translateY(+50%);
+  -ms-transform: translateY(+50%);
+}
+
+.wei-image4 {
+  transition: opacity 1s ease;
+
+}
+
+.wei-grid4:hover .wei-image4,
+.wei-grid4:focus .wei-image4 {
+  opacity: 0.4;
+}
+
+.wei-grid-special1 {
+  position: relative;
+  left: 10%;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0px 10px 0px 10px;
+  overflow: hidden;
+  transition: all .8s ease;
+}
+
+.wei-grid-special1:hover {
+  position: relative;
+  top: -30px;
+}
+
+.wei-image6 {
+  transition: transform 1s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.wei-grid-special1:hover .wei-image6,
+.wei-grid-special1:focus .wei-image6 {
+  transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+}
+
+.wei-grid1 {
+  position: relative;
+
+  border: 1px solid black;
+  margin: 0px 10px 0px 10px;
+  overflow: hidden;
+}
+
+.wei-image1 {
+  transition: transform 1s ease;
+
+}
+
+.wei-grid1:hover .wei-image1,
+.wei-grid1:focus .wei-image1 {
+  transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+
+  a:hover {
+    color: #888888;
+  }
+
+  :target {
+    padding-top: 100px;
+    margin-top: -100px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 1px solid #009FCC;
+    outline: none;
+    background-color: white;
+    color: #009FCC;
+    cursor: pointer;
+    padding: 10px 15px 15px 15px;
+    border-radius: 10px;
+  }
+
+  .back-to-top:hover {
+    background-color: #77DDFF;
+    color: white;
+  }
+
+
+
+  .box2 {
+    margin: 30px auto;
+    width: 300px;
+    min-height: 390px;
+    padding: 10px;
+    position: relative;
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#f3f3f3), to(#fff), color-stop(.1, #f3f3f3));
+    -webkit-border-bottom-right-radius: 55px 60px;
+    -webkit-box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-left: 81px;
+  }
+
+  .box2:before {
+    content: '';
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-box-shadow: -5px -2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform:
+      rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px);
+  }
+
+  .box2:after {
+    content: '';
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg) translate(-45px, -20px) skew(20deg);
+  }
+
+  .box2 img {
+    width: 300px;
+    margin-top: 15px;
+  }
+
+  .img_text {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: 'Courgette', cursive;
+  }
+
+  .pic {
+    overflow: hidden;
+  }
+
+  .pic img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+  }
+
+  .pic img:hover {
+    transform: scale(1.35, 1.35);
+  }
+
+  .root {
+    width: 100%;
+    margin: 100%;
+  }
+
+  .item {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .item>p {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    font-family: sans-serif;
+  }
+
+  .item-skill {
+    width: 100%;
+    background-color: #ddd;
+  }
+
+  .i-skill-bar {
+    text-align: right;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+  }
+
+  .html {
+    width: 50%;
+    background-color: red;
+    animation: runone 3s infinite;
+  }
+
+  .css {
+    width: 50%;
+    background-color: blue;
+    animation: runtwo 3s infinite;
+  }
+
+  .javascript {
+    width: 50%;
+    background-color: green;
+    animation: runthree 3s infinite;
+  }
+
+  .c {
+    width: 50%;
+    background-color: pink;
+    animation: runfour 3s infinite;
+  }
+
+  @keyframes runone {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes runtwo {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes runthree {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 50%;
+    }
+  }
+
+  @keyframes runfour {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 50%;
+    }
+  }
+
+  </style>
